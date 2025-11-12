@@ -64,7 +64,10 @@ export default function Footer() {
             <Link to="/about" className="hover:text-white transition-colors">
               About Us
             </Link>
-            <Link to="/editorial-guidelines" className="hover:text-white transition-colors">
+            <Link
+              to="/editorial-guidelines"
+              className="hover:text-white transition-colors"
+            >
               Editorial Guidelines
             </Link>
             <Link to="/careers" className="hover:text-white transition-colors">
@@ -73,10 +76,16 @@ export default function Footer() {
             <Link to="/legal" className="hover:text-white transition-colors">
               Legal
             </Link>
-            <Link to="/ai-ethics" className="hover:text-white transition-colors">
+            <Link
+              to="/ai-ethics"
+              className="hover:text-white transition-colors"
+            >
               AI Ethics
             </Link>
-            <Link to="/media-kit" className="hover:text-white transition-colors">
+            <Link
+              to="/media-kit"
+              className="hover:text-white transition-colors"
+            >
               Media Kit
             </Link>
           </div>

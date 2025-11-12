@@ -4,7 +4,11 @@ interface IndustryCardProps {
   onClick?: () => void;
 }
 
-export default function IndustryCard({ title, image, onClick }: IndustryCardProps) {
+export default function IndustryCard({
+  title,
+  image,
+  onClick,
+}: IndustryCardProps) {
   return (
     <button
       onClick={onClick}
@@ -12,19 +16,13 @@ export default function IndustryCard({ title, image, onClick }: IndustryCardProp
     >
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img
-          src={image}
-          alt={title}
-          className="w-full h-full object-cover"
-        />
+        <img src={image} alt={title} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
       </div>
 
       {/* Title */}
       <div className="relative h-full flex items-end p-6 md:p-8">
-        <h3 className="text-xl md:text-2xl font-bold text-white">
-          {title}
-        </h3>
+        <h3 className="text-xl md:text-2xl font-bold text-white">{title}</h3>
       </div>
     </button>
   );

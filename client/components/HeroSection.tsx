@@ -18,7 +18,8 @@ export default function HeroSection() {
             / Insights & Trend Reports
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-            Hack the future: Discover the trends and outlooks for key market segments.
+            Hack the future: Discover the trends and outlooks for key market
+            segments.
           </h1>
         </div>
       </div>

@@ -15,17 +15,23 @@ export default function Index() {
         {/* Download Section */}
         <section className="mb-16">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6 max-w-3xl">
-            Download the Industry Reports Series by AI/R's Future Hacking Innovation Studio.
+            Download the Industry Reports Series by AI/R's Future Hacking
+            Innovation Studio.
           </h2>
           <p className="text-gray-600 mb-6 max-w-3xl">
-            Click the industry you're interested in and fill out each form to receive the respective report.
+            Click the industry you're interested in and fill out each form to
+            receive the respective report.
           </p>
           <div className="bg-gray-50 border-l-4 border-gray-900 p-6 rounded-r-lg max-w-3xl">
             <p className="text-sm md:text-base text-gray-700">
-              The Industry Reports Series brings together six publications that analyze key trends in each sector—viewed through the lens of Future Studies—to help you understand their real impact and what they mean for your business.
+              The Industry Reports Series brings together six publications that
+              analyze key trends in each sector—viewed through the lens of
+              Future Studies—to help you understand their real impact and what
+              they mean for your business.
             </p>
             <p className="text-sm md:text-base text-gray-900 font-semibold mt-4">
-              Remember: The key to balancing innovation and resilience is to be aware of yourself and the future(s).
+              Remember: The key to balancing innovation and resilience is to be
+              aware of yourself and the future(s).
             </p>
           </div>
         </section>

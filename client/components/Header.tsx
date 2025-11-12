@@ -19,19 +19,34 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/about" className="text-sm text-gray-700 hover:text-gray-900">
+            <Link
+              to="/about"
+              className="text-sm text-gray-700 hover:text-gray-900"
+            >
               About Us
             </Link>
-            <Link to="/platforms" className="text-sm text-gray-700 hover:text-gray-900">
+            <Link
+              to="/platforms"
+              className="text-sm text-gray-700 hover:text-gray-900"
+            >
               AI Platforms
             </Link>
-            <Link to="/academy" className="text-sm text-gray-700 hover:text-gray-900">
+            <Link
+              to="/academy"
+              className="text-sm text-gray-700 hover:text-gray-900"
+            >
               AI/R Academy
             </Link>
-            <Link to="/case-studies" className="text-sm text-gray-700 hover:text-gray-900">
+            <Link
+              to="/case-studies"
+              className="text-sm text-gray-700 hover:text-gray-900"
+            >
               Case Studies
             </Link>
-            <Link to="/" className="inline-flex items-center px-4 py-2 bg-gray-900 text-white text-sm rounded-full hover:bg-gray-800 transition-colors">
+            <Link
+              to="/"
+              className="inline-flex items-center px-4 py-2 bg-gray-900 text-white text-sm rounded-full hover:bg-gray-800 transition-colors"
+            >
               Industry Report
             </Link>
           </nav>
@@ -53,7 +68,11 @@ export default function Header() {
             className="md:hidden p-2 text-gray-700"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -61,16 +80,28 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
-              <Link to="/about" className="text-sm text-gray-700 hover:text-gray-900">
+              <Link
+                to="/about"
+                className="text-sm text-gray-700 hover:text-gray-900"
+              >
                 About Us
               </Link>
-              <Link to="/platforms" className="text-sm text-gray-700 hover:text-gray-900">
+              <Link
+                to="/platforms"
+                className="text-sm text-gray-700 hover:text-gray-900"
+              >
                 AI Platforms
               </Link>
-              <Link to="/academy" className="text-sm text-gray-700 hover:text-gray-900">
+              <Link
+                to="/academy"
+                className="text-sm text-gray-700 hover:text-gray-900"
+              >
                 AI/R Academy
               </Link>
-              <Link to="/case-studies" className="text-sm text-gray-700 hover:text-gray-900">
+              <Link
+                to="/case-studies"
+                className="text-sm text-gray-700 hover:text-gray-900"
+              >
                 Case Studies
               </Link>
               <Link to="/" className="text-sm text-gray-900 font-medium">
